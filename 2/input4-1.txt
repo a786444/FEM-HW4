@@ -1,0 +1,13 @@
+*PARAMETER
+num-dim: 3
+*MATPROP
+b-plane-strain: 0
+young's-modulus: 30000000
+poisson's-ratio: 0.3
+*BOUNDARY:
+num-prescribed-load: 4
+trac_coor_dof_trac:
+0 0 3.0 0.0 0.0 -1500.0
+0 3.0 3.0 0.0 0.0 -1500.0
+2.0 0.0 3.0 0.0 0.0 -1500.0
+2.0 3.0 3.0 0.0 0.0 -1500.0 
