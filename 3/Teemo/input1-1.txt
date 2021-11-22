@@ -1,0 +1,11 @@
+*PARAMETER
+num-dim: 2
+*MATPROP
+b-plane-strain: 0
+young's-modulus: 1000
+poisson's-ratio: 0.3
+*BOUNDARY:
+num-prescribed-load: 1
+trac:
+0.0 -80.0
+thickness: 1
